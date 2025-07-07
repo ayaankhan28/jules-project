@@ -158,7 +158,6 @@ main:
         - Use **bold** for emphasis
         - Use *italic* for dish names
         - Use `coordinates` for location data
-        - Use ![name](image_url) for images
         
         Include a "View on Map" link for each restaurant using the format:
         🗺️ [View on Map](https://maps.google.com/?q=RESTAURANT_NAME+ADDRESS)

@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CityInput from './components/CityInput';
 import TourDisplay from './components/TourDisplay';
 import { generateTours } from './services/tourService';
-import LoadingAnimation from './components/LoadingAnimation';
 import { TourItinerary } from './types/tour';
 
 function App() {
@@ -102,7 +101,7 @@ function App() {
               exit={{ opacity: 0 }}
               className="flex flex-col items-center justify-center py-12"
             >
-              <LoadingAnimation />
+              <div className="w-12 h-12 border-4 border-[#f03603] border-t-transparent rounded-full animate-spin"></div>
               <p className="mt-4 text-black font-medium">Creating your personalized food tour...</p>
             </motion.div>
           )}

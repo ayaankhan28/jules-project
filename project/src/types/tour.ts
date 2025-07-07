@@ -1,6 +1,5 @@
 export interface City {
   name: string;
-  image: string;
   selected: boolean;
 }
 
@@ -10,13 +9,11 @@ export interface Restaurant {
   rating: number;
   website: string;
   ambiance: string;
-  image: string;
 }
 
 export interface Dish {
   name: string;
   description: string;
-  image: string;
 }
 
 export interface Weather {
@@ -37,7 +34,6 @@ export interface MealData {
 
 export interface TourItinerary {
   city: string;
-  heroImage: string;
   weather: Weather;
   breakfast: MealData;
   lunch: MealData;
