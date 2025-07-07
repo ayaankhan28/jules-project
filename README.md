@@ -2,6 +2,8 @@
 
 A modern web application that generates personalized food tour itineraries using Julep AI, combining weather data and local culinary expertise to create the perfect food exploration experience.
 
+
+# DEMO: [https://drive.google.com/file/d/1vITBLxuz-xKpUjenhO8A6pIyEd8qbpZw/view?usp=sharing]
 ## 🌟 Features
 
 - **Multi-City Support**: Plan food tours across multiple cities simultaneously
